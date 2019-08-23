@@ -1,10 +1,11 @@
 // This script changes the dimensions of the selected comps.
 
+
 {
     app.beginUndoGroup("Change Dimensions of Selected Comps");
 
-    var myHeight = 500;
-    var myWidth = 500;
+	var myHeight = 500;
+	var myWidth = 500;
 
 	var items = app.project.items;
 	var selectedComps = [];                  // Store selected comps in an array; starts as empty
