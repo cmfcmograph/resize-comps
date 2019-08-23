@@ -31,7 +31,7 @@
                 currentLayer = currentComp.layer(k);
                 
                 // Find the larger value, layer height or width, and store it in v
-                if(currentLayer.height>currentLayer.width){
+                if(currentLayer.width>currentLayer.height){
                     v = (currentComp.width*currentComp.pixelAspect)/(currentLayer.width*currentLayer.source.pixelAspect)*100;
                 }else{
                     v = (currentComp.height*currentComp.pixelAspect)/(currentLayer.height*currentLayer.source.pixelAspect)*100;
